@@ -1,0 +1,75 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo */
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+/* Nav */
+.nav-items ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-items li {
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Hover underline effect */
+.nav-items li::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  background-color: #38bdf8;
+  transition: 0.3s;
+}
+
+.nav-items li:hover::after {
+  width: 100%;
+}
+
+.nav-items li:hover {
+  color: #38bdf8;
+}
+
+/* Login Button */
+.login-item {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 20px;
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-item:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+}

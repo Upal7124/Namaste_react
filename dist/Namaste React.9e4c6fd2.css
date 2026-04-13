@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.header {
+  color: #fff;
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  display: flex;
+  box-shadow: 0 4px 12px #0000004d;
+}
+
+.logo {
+  cursor: pointer;
+  width: 120px;
+}
+
+.nav-items ul {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-items li {
+  cursor: pointer;
+  font-size: 16px;
+  transition: all .3s;
+  position: relative;
+}
+
+.nav-items li:after {
+  content: "";
+  background-color: #38bdf8;
+  width: 0%;
+  height: 2px;
+  transition: all .3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.nav-items li:hover:after {
+  width: 100%;
+}
+
+.nav-items li:hover {
+  color: #38bdf8;
+}
+
+.login-item {
+  color: #0f172a;
+  cursor: pointer;
+  background: #38bdf8;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.login-item:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+}
+/*# sourceMappingURL=Namaste React.9e4c6fd2.css.map */

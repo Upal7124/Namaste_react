@@ -2,8 +2,9 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "This is Namaste React",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -16,6 +17,13 @@
   "author": "Upal",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.16.4"
+    "autoprefixer": "^10.4.27",
+    "parcel": "^2.16.4",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   }
 }
