@@ -2,12 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Poppins, sans-serif;
+  font-family: poppins, Inter, Montserrat, sans-serif;
 }
 
 .header {
-  color: #fff;
-  background: linear-gradient(90deg, #0f172a, #1e293b);
+  color: #000;
+  background: #fff;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
@@ -17,7 +17,8 @@
 
 .logo {
   cursor: pointer;
-  width: 120px;
+  width: 90px;
+  height: 34px;
 }
 
 .nav-items ul {
@@ -28,7 +29,7 @@
 
 .nav-items li {
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   transition: all .3s;
   position: relative;
 }
@@ -52,19 +53,78 @@
   color: #38bdf8;
 }
 
-.login-item {
-  color: #0f172a;
+.login-signUp {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.signUp-item {
+  color: #111;
   cursor: pointer;
-  background: #38bdf8;
-  border: none;
-  border-radius: 20px;
-  padding: 8px 18px;
-  font-weight: 600;
+  background-color: #0000;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 36px;
+  padding: 6px 14px;
   transition: all .3s;
 }
 
+.signUp-item:hover {
+  background-color: #f3f3f3;
+}
+
+.login-item {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(135deg, #8b3dff, #6d28d9);
+  border: none;
+  border-radius: 10px;
+  height: 36px;
+  padding: 6px 16px;
+  font-weight: 500;
+}
+
 .login-item:hover {
-  background: #0ea5e9;
-  transform: scale(1.05);
+  background: #612dae;
+}
+
+.ads1-cont {
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px 0 20px 40px;
+  display: flex;
+}
+
+.ads1-vid {
+  border-radius: 12px;
+  width: 750px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ads1-vid video {
+  border-radius: 12px;
+  width: 100%;
+  display: block;
+}
+
+.Overlay {
+  color: #fff;
+  text-align: center;
+  background: #0003;
+  border-radius: 8px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Overlay h2 {
+  margin: 0;
+  font-size: 26px;
 }
 /*# sourceMappingURL=Namaste React.9e4c6fd2.css.map */

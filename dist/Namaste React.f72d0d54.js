@@ -748,7 +748,7 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
                 className: "logo-c",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     className: "logo",
-                    src: "https://logopond.com/logos/6c9c73fccccfeb5bef34a822912c9c85.png"
+                    src: "https://static.canva.com/web/images/8439b51bb7a19f6e65ce1064bc37c197.svg"
                 }, void 0, false, {
                     fileName: "app.js",
                     lineNumber: 22,
@@ -766,24 +766,45 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Home"
+                                children: "Design"
                             }, void 0, false, {
                                 fileName: "app.js",
                                 lineNumber: 28,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "About"
+                                children: "Product"
                             }, void 0, false, {
                                 fileName: "app.js",
                                 lineNumber: 29,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Contact"
+                                children: "Plan"
                             }, void 0, false, {
                                 fileName: "app.js",
                                 lineNumber: 30,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "Business"
+                            }, void 0, false, {
+                                fileName: "app.js",
+                                lineNumber: 31,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "Education"
+                            }, void 0, false, {
+                                fileName: "app.js",
+                                lineNumber: 32,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "Help"
+                            }, void 0, false, {
+                                fileName: "app.js",
+                                lineNumber: 33,
                                 columnNumber: 25
                             }, undefined)
                         ]
@@ -803,18 +824,42 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "login-c",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    className: "login-item",
-                    children: "Login"
-                }, void 0, false, {
-                    fileName: "app.js",
-                    lineNumber: 35,
-                    columnNumber: 17
-                }, undefined)
-            }, void 0, false, {
+                className: "login-signUp",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "signUp-c",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "signUp-item",
+                            children: "Sign Up"
+                        }, void 0, false, {
+                            fileName: "app.js",
+                            lineNumber: 39,
+                            columnNumber: 17
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "app.js",
+                        lineNumber: 38,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "login-c",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "login-item",
+                            children: "Login"
+                        }, void 0, false, {
+                            fileName: "app.js",
+                            lineNumber: 42,
+                            columnNumber: 17
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "app.js",
+                        lineNumber: 41,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "app.js",
-                lineNumber: 34,
+                lineNumber: 37,
                 columnNumber: 13
             }, undefined)
         ]
@@ -825,30 +870,135 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
     }, undefined);
 };
 _c = Header;
-const AppLayout = ()=>{
+const Ads = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "ads1-cont",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "ads1-vid",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("video", {
+                            src: "https://content-management-files.canva.com/fbd599e2-8bae-40e1-91a0-628a9182c09d/Recommended_DreamLab_Desktop2.mp4",
+                            width: "600",
+                            autoPlay: true,
+                            loop: true,
+                            muted: true,
+                            playsInline: true
+                        }, void 0, false, {
+                            fileName: "app.js",
+                            lineNumber: 53,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "app.js",
+                        lineNumber: 52,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "Overlay",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                            children: "Explore with canva"
+                        }, void 0, false, {
+                            fileName: "app.js",
+                            lineNumber: 63,
+                            columnNumber: 17
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "app.js",
+                        lineNumber: 62,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "app.js",
+                lineNumber: 51,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "ads2-cont",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: "https://content-management-files.canva.com/3aefbd76-8499-4ee1-807f-9b2c901a3878/Recommended_BGremover_Desktop_2x.png",
+                    alt: "Ad2"
+                }, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 67,
+                    columnNumber: 13
+                }, undefined)
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 66,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+_c1 = Ads;
+const Body = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "app",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
-            fileName: "app.js",
-            lineNumber: 43,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false, {
+        className: "body",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "search",
+                children: "Search"
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 75,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "canva-cont"
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 76,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ads, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 77,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 42,
+        lineNumber: 74,
         columnNumber: 9
     }, undefined);
 };
-_c1 = AppLayout;
+_c2 = Body;
+const AppLayout = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "app",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 84,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 85,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "app.js",
+        lineNumber: 83,
+        columnNumber: 9
+    }, undefined);
+};
+_c3 = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "app.js",
-    lineNumber: 48,
+    lineNumber: 90,
     columnNumber: 13
 }, undefined));
-var _c, _c1;
+var _c, _c1, _c2, _c3;
 $RefreshReg$(_c, "Header");
-$RefreshReg$(_c1, "AppLayout");
+$RefreshReg$(_c1, "Ads");
+$RefreshReg$(_c2, "Body");
+$RefreshReg$(_c3, "AppLayout");
 
   $parcel$ReactRefreshHelpers$5fe5.postlude(module);
 } finally {

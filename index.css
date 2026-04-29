@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'poppins','Inter', 'Montserrat', sans-serif;
 }
 
 /* Header Container */
@@ -12,14 +12,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background: linear-gradient(90deg, #0f172a, #1e293b);
-  color: white;
+  background: white;
+  color: black;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Logo */
 .logo {
-  width: 120px;
+  width: 90px;
+  height: 34px;
   cursor: pointer;
 }
 
@@ -32,7 +33,7 @@
 
 .nav-items li {
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
   transition: 0.3s;
 }
@@ -57,19 +58,86 @@
   color: #38bdf8;
 }
 
-/* Login Button */
-.login-item {
-  padding: 8px 18px;
-  border: none;
-  border-radius: 20px;
-  background: #38bdf8;
-  color: #0f172a;
-  font-weight: 600;
+.login-signUp {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Sign Up button */
+.signUp-item {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #111;
+  padding: 6px 14px;
+  height: 36px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.3s;
+}
+
+.signUp-item:hover {
+  background-color: #f3f3f3;
+}
+
+/* Login button */
+.login-item {
+  background: linear-gradient(135deg, #8b3dff, #6d28d9);
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  height: 36px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .login-item:hover {
-  background: #0ea5e9;
-  transform: scale(1.05);
+  background: #612dae;
+}
+.ads1-cont {
+  display: flex;              /* puts video on left */
+  align-items: center;
+  gap: 20px;
+
+  width: 100%;
+  max-width: 900px;
+  margin: 20px 0 20px 40px;
+}
+
+/* Video wrapper */
+.ads1-vid {
+  position: relative;         /* needed for overlay */
+  width: 750px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* Video */
+.ads1-vid video {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+/* Overlay */
+.Overlay {
+  position: absolute;
+  top: 20%;                   /* move text slightly UP */
+  left: 50%;
+  transform: translateX(-50%);
+
+  color: white;
+  text-align: center;
+
+  /* lighter overlay so video not too dark */
+  background: rgba(0, 0, 0, 0.2);  
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Text */
+.Overlay h2 {
+  font-size: 26px;
+  margin: 0;
 }
