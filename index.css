@@ -95,49 +95,174 @@
 .login-item:hover {
   background: #612dae;
 }
+/* MAIN WRAPPER */
+.ads-wrapper {
+    display: flex;
+    gap: 28px;
+    padding: 10px 40px;
+    background: #ece8f7;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: flex-start; /* changed */
+    justify-content: center;
+}
+
+/* LEFT CONTAINER */
 .ads1-cont {
-  display: flex;              /* puts video on left */
-  align-items: center;
-  gap: 20px;
-
-  width: 100%;
-  max-width: 900px;
-  margin: 20px 0 20px 40px;
+    position: relative;
+    width: 68%;
+    height: auto; /* changed from fixed height */
+    border-radius: 28px;
+    overflow: hidden;
+    background: transparent; /* changed */
 }
 
-/* Video wrapper */
-.ads1-vid {
-  position: relative;         /* needed for overlay */
-  width: 750px;
-  overflow: hidden;
-  border-radius: 12px;
-}
-
-/* Video */
+/* VIDEO */
 .ads1-vid video {
-  width: 100%;
-  display: block;
-  border-radius: 12px;
+    width: 100%;
+    height: auto; /* changed */
+    display: block;
+    object-fit: cover;
+    border-radius: 28px;
 }
 
-/* Overlay */
+/* LEFT TEXT */
 .Overlay {
-  position: absolute;
-  top: 20%;                   /* move text slightly UP */
-  left: 50%;
-  transform: translateX(-50%);
-
-  color: white;
-  text-align: center;
-
-  /* lighter overlay so video not too dark */
-  background: rgba(0, 0, 0, 0.2);  
-  padding: 10px 20px;
-  border-radius: 8px;
+    position: absolute;
+    top: 55px;
+    left: 45px;
+    z-index: 2;
 }
 
-/* Text */
 .Overlay h2 {
-  font-size: 26px;
-  margin: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.15;
+}
+
+/* RIGHT CONTAINER */
+.ads2-cont {
+    position: relative;
+    width: 32%;
+    height: auto; /* changed from fixed height */
+    border-radius: 28px;
+    overflow: hidden;
+    background: transparent; /* changed */
+}
+
+/* IMAGE */
+.ads2-img img {
+    width: 100%;
+    height: auto; /* changed */
+    display: block;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+/* RIGHT OVERLAY */
+.Overlay-img {
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    z-index: 2;
+    width: 82%;
+}
+
+/* RIGHT TEXT */
+.img-text {
+    font-size: 24px;
+    font-weight: 800;
+    color: #000;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+/* BUTTON */
+.img-button button {
+    padding: 18px 32px;
+    border: none;
+    border-radius: 16px;
+    background: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* HOVER */
+.img-button button:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+/* Parent section */
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero wrapper */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Left content */
+.hero-cont {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Heading */
+.hero-h2 {
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Sub text */
+.hero-sub {
+    font-size: 22px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* Button */
+.hero-button button {
+    padding: 18px 32px;
+    border: none;
+    border-radius: 14px;
+    background: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Right video */
+.hero-video {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-video video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 24px;
+    display: block;
 }
