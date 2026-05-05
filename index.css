@@ -15,6 +15,25 @@
   background: white;
   color: black;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  position: fixed;
+  width: 100%;
+}
+/* Full page background */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(
+    120deg,
+    #427ce9 0%,
+    #8969f1 30%,
+    #c1a2f3 50%,
+    #e1d4f3 100%
+);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
 }
 
 /* Logo */
@@ -100,7 +119,6 @@
     display: flex;
     gap: 28px;
     padding: 10px 40px;
-    background: #ece8f7;
     width: 100%;
     box-sizing: border-box;
     align-items: flex-start; /* changed */
@@ -247,7 +265,7 @@
     border: none;
     border-radius: 14px;
     background: white;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -265,4 +283,194 @@
     max-width: 700px;
     border-radius: 24px;
     display: block;
+}
+/* Page background */
+.tools-section {
+    padding: 60px 20px;
+}
+
+/* Heading */
+.tools-head {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.tools-head h1 {
+    font-size: 48px;
+    font-weight: 480;
+    color: #111;
+    margin: 0;
+}
+
+/* Container */
+.tools-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Nav wrapper (pill shape) */
+.tools-items {
+    background: #eaeaea;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* List */
+.tools-items ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+/* Items */
+.tools-items li {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #111;
+}
+
+/* Active tab (Try it now) */
+.tools-items li:first-child {
+    background: linear-gradient(90deg, #2bb3ff, #7a3cff);
+    color: white;
+    font-weight: 500;
+}
+
+/* Hover effect */
+.tools-items li:hover {
+    background: rgba(0,0,0,0.05);
+}
+/* Full screen overlay */
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: url("https://www.designyourway.net/blog/wp-content/uploads/2024/10/Social-Media-canva.jpg") center/cover no-repeat;
+  filter: blur(6px) brightness(0.5);
+  z-index: 0;   /* below modal & header */
+}
+
+.SignUp-cont {
+  position: relative;
+  top: 100;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: transparent;
+  z-index: 999;
+}
+
+/* Modal box */
+.SignUp-form-cont {
+  width: 350px;
+  background: #1f1f2e;
+  padding: 32px 28px;
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+
+  color: #fff;
+  text-align: left;
+   pointer-events: auto;
+
+}
+
+/* Headings */
+.SignUp-form-cont h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.SignUp-form-cont h5 {
+  font-size: 14px;
+  color: #b5b5c3;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Button container */
+.SignUp-form-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Common button style */
+.SignUp-form-btn button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #3a3a4a;
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.SignUp-form-btn button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: #555;
+}
+
+/* Specific buttons (optional tweak) */
+.SignUp-form-btn-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.SignUp-form-btn-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+/* "Continue another way" */
+.SignUp-form-btn-another {
+  margin-top: 14px;
+  background: none;
+  border: none;
+  color: #d1d1ff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.SignUp-form-btn-another:hover {
+  text-decoration: underline;
+}
+
+/* Footer text */
+.SignUp-form-cont h6 {
+  margin-top: 18px;
+  font-size: 12px;
+  color: #9a9ab0;
+  line-height: 1.4;
+}
+
+/* Links inside footer */
+.SignUp-form-cont h6 span,
+.SignUp-form-cont h6 a {
+  color: #a78bfa;
+  cursor: pointer;
 }

@@ -1,4 +1,10 @@
-const Header=()=>{
+import { useState } from "react";
+import BodyAfterLogin from "./BodyAfterLogin";
+import SignUp from "./SignUp";
+import Body from "./Body";
+import { Link } from "react-router-dom";
+const Header=({setIsLoggedIn})=>{
+   
     return (
         <div className="header">
             <div className="logo-c">
@@ -8,7 +14,9 @@ const Header=()=>{
             <div className="nav-c">
                 <div className="nav-items">
                     <ul>
-                        <li>Design</li>
+                        <li>
+                            <Link to="/Design">Design</Link>
+                        </li>
                         <li>Product</li>
                         <li>Plan</li>
                         <li>Business</li>
@@ -19,10 +27,16 @@ const Header=()=>{
             </div>
             <div className="login-signUp">
             <div className="signUp-c"> 
-                <button className="signUp-item">Sign Up</button>
+                <button className="signUp-item"><Link to="/SignUp">
+                    Sign Up
+                    </Link>
+                </button>
             </div>
             <div className="login-c"> 
-                <button className="login-item">Login</button>
+                <button 
+                className="login-item"
+                >Login</button>
+                
             </div>
             </div>
         </div>

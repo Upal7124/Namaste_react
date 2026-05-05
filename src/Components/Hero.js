@@ -15,8 +15,12 @@ const Hero=()=>{
         </div>
     </div>
     <div className="hero-video">
-        <video width="600" controls>
-            <source src="https://content-management-files.canva.com/f521ebb2-bf15-4e2b-9085-9979b16a4362/canva_jadu_dadu_hin_16_9.mp4"></source>
+        <video src="https://content-management-files.canva.com/f521ebb2-bf15-4e2b-9085-9979b16a4362/canva_jadu_dadu_hin_16_9.mp4" 
+                    width="600"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline>
         </video>
     </div>
     </div>
