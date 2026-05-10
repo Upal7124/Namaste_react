@@ -1,11 +1,12 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom/client";
-import Body from "./Components/Body";
-import BodyAfterLogin from "./Components/BodyAfterLogin";
-import Header from "./Components/Header";
-import Design from "./Components/Design";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import SignUp from "./Components/SignUp";
+import '.././index.css';
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom/client';
+import Body from './Components/Body';
+import BodyAfterLogin from './Components/BodyAfterLogin';
+import Header from './Components/Header';
+import Design from './Components/Design';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import SignUp from './Components/SignUp';
 
 /**
  * Header
@@ -23,42 +24,34 @@ import SignUp from "./Components/SignUp";
  */
 
 const AppLayout = () => {
-    // const [isLoggedIn, setIsLoggedIn] = useState(false);
-    
-    return (
-        <div className="app">
-            <Header  />
-            <Outlet/>
-        </div>
-    );
+  return (
+    <div className="app">
+      <Header />
+      <Outlet />
+    </div>
+  );
 };
 
 const appRouter = createBrowserRouter([
-    {
-        path: "/",
-        element: <AppLayout />,
-        children:[
-        {
-                index: true,
-                element: <Body />,
-        },
-        {
-            
-            path:"design",
-            element: <Design />
-    
-        },
-        {
-            
-            path:"signup",
-            element: <SignUp />
-    
-        }
-    ]
-}
-
-    
+  {
+    path: '/',
+    element: <AppLayout />,
+    children: [
+      {
+        index: true,
+        element: <Body />,
+      },
+      {
+        path: 'design',
+        element: <Design />,
+      },
+      {
+        path: 'signup',
+        element: <SignUp />,
+      },
+    ],
+  },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<RouterProvider router={appRouter} />);

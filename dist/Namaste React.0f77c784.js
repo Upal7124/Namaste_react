@@ -723,6 +723,7 @@ $parcel$ReactRefreshHelpers$0bfa.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _indexCss = require(".././index.css");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
@@ -752,70 +753,69 @@ var _signUpDefault = parcelHelpers.interopDefault(_signUp);
  *  -Address
  *  -Copyright
  */ const AppLayout = ()=>{
-    // const [isLoggedIn, setIsLoggedIn] = useState(false);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "app",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 30,
-                columnNumber: 13
+                lineNumber: 29,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 31,
-                columnNumber: 13
+                lineNumber: 30,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/app.js",
-        lineNumber: 29,
-        columnNumber: 9
+        lineNumber: 28,
+        columnNumber: 5
     }, undefined);
 };
 _c = AppLayout;
 const appRouter = (0, _reactRouterDom.createBrowserRouter)([
     {
-        path: "/",
+        path: '/',
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
             fileName: "src/app.js",
-            lineNumber: 39,
-            columnNumber: 18
+            lineNumber: 38,
+            columnNumber: 14
         }, undefined),
         children: [
             {
                 index: true,
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                     fileName: "src/app.js",
-                    lineNumber: 43,
-                    columnNumber: 26
+                    lineNumber: 42,
+                    columnNumber: 18
                 }, undefined)
             },
             {
-                path: "design",
+                path: 'design',
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _designDefault.default), {}, void 0, false, {
                     fileName: "src/app.js",
-                    lineNumber: 48,
-                    columnNumber: 22
+                    lineNumber: 46,
+                    columnNumber: 18
                 }, undefined)
             },
             {
-                path: "signup",
+                path: 'signup',
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signUpDefault.default), {}, void 0, false, {
                     fileName: "src/app.js",
-                    lineNumber: 54,
-                    columnNumber: 22
+                    lineNumber: 50,
+                    columnNumber: 18
                 }, undefined)
             }
         ]
     }
 ]);
-const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
+const root = (0, _clientDefault.default).createRoot(document.getElementById('root'));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
     router: appRouter
 }, void 0, false, {
     fileName: "src/app.js",
-    lineNumber: 64,
+    lineNumber: 57,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -826,7 +826,7 @@ $RefreshReg$(_c, "AppLayout");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./Components/Body":"3hYmK","./Components/BodyAfterLogin":"k3yAA","./Components/Header":"50ygr","./Components/Design":"cUrXp","react-router-dom":"61z4w","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Components/SignUp":"gPy2O"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./Components/Body":"3hYmK","./Components/BodyAfterLogin":"k3yAA","./Components/Header":"50ygr","./Components/Design":"cUrXp","react-router-dom":"61z4w","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Components/SignUp":"gPy2O",".././index.css":"giGSC"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -17552,114 +17552,107 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 const Ads = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "bg-[#020617] px-6 py-10",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "ads-wrapper",
+            className: "flex flex-col lg:flex-row gap-6 justify-center items-stretch",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "ads1-cont",
+                    className: "relative w-full lg:w-[65%]",
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "ads1-vid",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("video", {
-                                src: "https://content-management-files.canva.com/fbd599e2-8bae-40e1-91a0-628a9182c09d/Recommended_DreamLab_Desktop2.mp4",
-                                width: "600",
-                                autoPlay: true,
-                                loop: true,
-                                muted: true,
-                                playsInline: true
-                            }, void 0, false, {
-                                fileName: "src/Components/Ads.js",
-                                lineNumber: 7,
-                                columnNumber: 13
-                            }, undefined)
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("video", {
+                            src: "https://content-management-files.canva.com/fbd599e2-8bae-40e1-91a0-628a9182c09d/Recommended_DreamLab_Desktop2.mp4",
+                            autoPlay: true,
+                            loop: true,
+                            muted: true,
+                            playsInline: true,
+                            className: "w-full h-full object-cover rounded-2xl"
                         }, void 0, false, {
                             fileName: "src/Components/Ads.js",
-                            lineNumber: 6,
-                            columnNumber: 13
+                            lineNumber: 7,
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "Overlay",
+                            className: "absolute inset-0 flex items-start justify-center pt-8",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "Explore with canva"
+                                className: "text-white text-3xl md:text-5xl font-bold text-center",
+                                children: "Explore with Canva"
                             }, void 0, false, {
                                 fileName: "src/Components/Ads.js",
                                 lineNumber: 17,
-                                columnNumber: 17
+                                columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Ads.js",
                             lineNumber: 16,
-                            columnNumber: 13
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Ads.js",
-                    lineNumber: 5,
+                    lineNumber: 6,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "ads2-cont",
+                    className: "relative w-full lg:w-[35%]",
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "ads2-img",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: "https://content-management-files.canva.com/3aefbd76-8499-4ee1-807f-9b2c901a3878/Recommended_BGremover_Desktop_2x.png",
-                                alt: "Ad2"
-                            }, void 0, false, {
-                                fileName: "src/Components/Ads.js",
-                                lineNumber: 22,
-                                columnNumber: 13
-                            }, undefined)
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: "https://content-management-files.canva.com/3aefbd76-8499-4ee1-807f-9b2c901a3878/Recommended_BGremover_Desktop_2x.png",
+                            alt: "Ad",
+                            className: "w-full h-full object-cover rounded-2xl"
                         }, void 0, false, {
                             fileName: "src/Components/Ads.js",
-                            lineNumber: 21,
-                            columnNumber: 13
+                            lineNumber: 25,
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "Overlay-img",
+                            className: "absolute inset-0 flex flex-col justify-between p-6",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "img-text",
-                                    children: "Bye-bye background in a single click"
-                                }, void 0, false, {
-                                    fileName: "src/Components/Ads.js",
-                                    lineNumber: 25,
-                                    columnNumber: 17
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "img-button",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        children: "Remove background"
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        className: "text-black text-2xl md:text-3xl font-bold max-w-[250]",
+                                        children: "Bye-bye background in a single click"
                                     }, void 0, false, {
                                         fileName: "src/Components/Ads.js",
-                                        lineNumber: 27,
-                                        columnNumber: 21
+                                        lineNumber: 33,
+                                        columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Ads.js",
-                                    lineNumber: 26,
-                                    columnNumber: 17
+                                    lineNumber: 32,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "bg-white text-black px-5 py-3 rounded-full font-semibold w-fit hover:bg-gray-200 transition",
+                                    children: "Remove background"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Ads.js",
+                                    lineNumber: 38,
+                                    columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/Components/Ads.js",
-                            lineNumber: 24,
-                            columnNumber: 13
+                            lineNumber: 31,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Ads.js",
-                    lineNumber: 20,
+                    lineNumber: 24,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/Components/Ads.js",
             lineNumber: 4,
-            columnNumber: 9
+            columnNumber: 7
         }, undefined)
-    }, void 0, false);
+    }, void 0, false, {
+        fileName: "src/Components/Ads.js",
+        lineNumber: 3,
+        columnNumber: 5
+    }, undefined);
 };
 _c = Ads;
 exports.default = Ads;
@@ -19992,13 +19985,13 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 const Hero = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "hero-section",
+        className: "flex py-10 bg-[#020617]",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "hero-cont",
+                className: "text-amber-50 pl-6",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "hero-h2",
+                        className: "text-6xl",
                         children: "Where heart meets art"
                     }, void 0, false, {
                         fileName: "src/Components/Hero.js",
@@ -20006,35 +19999,36 @@ const Hero = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "hero-sub",
+                        className: "hero-sub py-4",
                         children: "Canva makes it easy to create and share professional designs."
                     }, void 0, false, {
                         fileName: "src/Components/Hero.js",
-                        lineNumber: 8,
+                        lineNumber: 6,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "hero-button",
+                        className: "",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "bg-[#7f7d9c] p-3 rounded-2xl hover:cursor-pointer  hover:bg-gray-100 hover:text-black",
                             children: "Sign up and start designing"
                         }, void 0, false, {
                             fileName: "src/Components/Hero.js",
-                            lineNumber: 12,
-                            columnNumber: 13
+                            lineNumber: 10,
+                            columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Hero.js",
-                        lineNumber: 11,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Hero.js",
                 lineNumber: 4,
-                columnNumber: 5
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "hero-video",
+                className: "pl-36 pr-8",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("video", {
                     src: "https://content-management-files.canva.com/f521ebb2-bf15-4e2b-9085-9979b16a4362/canva_jadu_dadu_hin_16_9.mp4",
                     width: "600",
@@ -20044,13 +20038,13 @@ const Hero = ()=>{
                     playsInline: true
                 }, void 0, false, {
                     fileName: "src/Components/Hero.js",
-                    lineNumber: 18,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Hero.js",
-                lineNumber: 17,
-                columnNumber: 5
+                lineNumber: 15,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
@@ -20082,98 +20076,99 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 const Tools = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "tools-section",
+        className: "bg-[#020617] text-amber-50 py-4 px-40",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "tools-head",
+                className: "pb-8 text-5xl text-center",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "Explore  Canva's template and AI tools"
+                    children: "Explore Canva's template and AI tools"
                 }, void 0, false, {
                     fileName: "src/Components/Tools.js",
                     lineNumber: 5,
-                    columnNumber: 13
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Tools.js",
                 lineNumber: 4,
-                columnNumber: 9
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "tools-cont",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "tools-items",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Try it now"
-                            }, void 0, false, {
-                                fileName: "src/Components/Tools.js",
-                                lineNumber: 12,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "AI"
-                            }, void 0, false, {
-                                fileName: "src/Components/Tools.js",
-                                lineNumber: 13,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Presentation"
-                            }, void 0, false, {
-                                fileName: "src/Components/Tools.js",
-                                lineNumber: 14,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Social Media"
-                            }, void 0, false, {
-                                fileName: "src/Components/Tools.js",
-                                lineNumber: 15,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Print"
-                            }, void 0, false, {
-                                fileName: "src/Components/Tools.js",
-                                lineNumber: 16,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Video"
-                            }, void 0, false, {
-                                fileName: "src/Components/Tools.js",
-                                lineNumber: 17,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Education"
-                            }, void 0, false, {
-                                fileName: "src/Components/Tools.js",
-                                lineNumber: 18,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/Tools.js",
-                        lineNumber: 11,
-                        columnNumber: 17
-                    }, undefined)
-                }, void 0, false, {
+                className: "pb-8 w-4xl ",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    className: "bg-[#7f7d9c] flex items-center justify-center h-20 border-none rounded-[40px]  ",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "px-6 text-lg font-medium hover:cursor-pointer h-12 flex justify-between items-center rounded-3xl pl-6 bg-amber-50 text-black hover:border-2 hover:bg-[#7f7d9c] hover:text-amber-50 border-2 border-amber-50",
+                            children: "Try it now"
+                        }, void 0, false, {
+                            fileName: "src/Components/Tools.js",
+                            lineNumber: 9,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "px-6 text-lg font-medium hover:cursor-pointer",
+                            children: "AI"
+                        }, void 0, false, {
+                            fileName: "src/Components/Tools.js",
+                            lineNumber: 12,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "px-6 text-lg font-medium hover:cursor-pointer",
+                            children: "Presentation"
+                        }, void 0, false, {
+                            fileName: "src/Components/Tools.js",
+                            lineNumber: 13,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "px-6 text-lg font-medium hover:cursor-pointer",
+                            children: "Social Media"
+                        }, void 0, false, {
+                            fileName: "src/Components/Tools.js",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "px-6 text-lg font-medium hover:cursor-pointer",
+                            children: "Print"
+                        }, void 0, false, {
+                            fileName: "src/Components/Tools.js",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "px-6 text-lg font-medium hover:cursor-pointer",
+                            children: "Video"
+                        }, void 0, false, {
+                            fileName: "src/Components/Tools.js",
+                            lineNumber: 22,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "px-6 text-lg font-medium hover:cursor-pointer",
+                            children: "Education"
+                        }, void 0, false, {
+                            fileName: "src/Components/Tools.js",
+                            lineNumber: 25,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
                     fileName: "src/Components/Tools.js",
-                    lineNumber: 10,
-                    columnNumber: 13
+                    lineNumber: 8,
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Tools.js",
-                lineNumber: 9,
-                columnNumber: 9
+                lineNumber: 7,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Tools.js",
         lineNumber: 3,
-        columnNumber: 9
+        columnNumber: 5
     }, undefined);
 };
 _c = Tools;
@@ -20241,150 +20236,186 @@ var _signUp = require("./SignUp");
 var _signUpDefault = parcelHelpers.interopDefault(_signUp);
 var _body = require("./Body");
 var _bodyDefault = parcelHelpers.interopDefault(_body);
+var _design = require("./Design");
+var _designDefault = parcelHelpers.interopDefault(_design);
 var _reactRouterDom = require("react-router-dom");
-const Header = ({ setIsLoggedIn })=>{
+var _s = $RefreshSig$();
+const Header = ()=>{
+    _s();
+    const [showDesign, setShowDesign] = (0, _react.useState)(false);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "header",
+        className: "flex bg-slate-900 h-24 shadow-2xl",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "logo-c",
+                className: "w-64 pl-8 flex items-center ",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "logo",
+                    className: "w-full h-auto",
                     src: "https://static.canva.com/web/images/8439b51bb7a19f6e65ce1064bc37c197.svg"
                 }, void 0, false, {
                     fileName: "src/Components/Header.js",
-                    lineNumber: 11,
-                    columnNumber: 17
+                    lineNumber: 12,
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Header.js",
-                lineNumber: 10,
-                columnNumber: 13
+                lineNumber: 11,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "nav-c",
+                className: "flex justify-between items-center pl-56",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "nav-items",
+                    className: "",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: "flex px-4 text-gray-100 ",
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/Design",
-                                    children: "Design"
-                                }, void 0, false, {
-                                    fileName: "src/Components/Header.js",
-                                    lineNumber: 18,
-                                    columnNumber: 29
-                                }, undefined)
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "relative",
+                                onMouseEnter: ()=>setShowDesign(true),
+                                onMouseLeave: ()=>setShowDesign(false),
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        className: "px-4 hover:drop-shadow-[0_0_12px_white] cursor-pointer font-medium text-[18px]",
+                                        children: "Design"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 25,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "absolute ",
+                                        children: showDesign && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _designDefault.default), {}, void 0, false, {
+                                            fileName: "src/Components/Header.js",
+                                            lineNumber: 28,
+                                            columnNumber: 57
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 28,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 17,
-                                columnNumber: 25
+                                lineNumber: 20,
+                                columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "px-4 hover:drop-shadow-[0_0_12px_white] cursor-pointer font-medium text-[18px]",
                                 children: "Product"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 20,
-                                columnNumber: 25
+                                lineNumber: 30,
+                                columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "px-4 hover:drop-shadow-[0_0_12px_white] cursor-pointer font-medium text-[18px]",
                                 children: "Plan"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 21,
-                                columnNumber: 25
+                                lineNumber: 33,
+                                columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "px-4 hover:drop-shadow-[0_0_12px_white] cursor-pointer font-medium text-[18px]",
                                 children: "Business"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 22,
-                                columnNumber: 25
+                                lineNumber: 36,
+                                columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "px-4 hover:drop-shadow-[0_0_12px_white] cursor-pointer font-medium text-[18px]",
                                 children: "Education"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 23,
-                                columnNumber: 25
+                                lineNumber: 39,
+                                columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "px-4 hover:drop-shadow-[0_0_12px_white] cursor-pointer font-medium text-[18px]",
                                 children: "Help"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 24,
-                                columnNumber: 25
+                                lineNumber: 42,
+                                columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 16,
-                        columnNumber: 21
+                        lineNumber: 19,
+                        columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/Components/Header.js",
-                    lineNumber: 15,
-                    columnNumber: 17
+                    lineNumber: 18,
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Header.js",
-                lineNumber: 14,
-                columnNumber: 13
+                lineNumber: 17,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "login-signUp",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "signUp-c",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            className: "signUp-item",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/SignUp",
-                                children: "Sign Up"
+                className: "pl-36 flex items-center pr-5",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex justify-between items-center border-2 border-slate-700 w-44 rounded-3xl h-12   ",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "pl-0.5",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "px-4 text-amber-50 bg-[#7f7d9c] h-10 rounded-3xl border-amber-50 hover:bg-gray-100 hover:text-black hover:cursor-pointer",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/SignUp",
+                                    children: "Sign Up"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Header.js",
+                                    lineNumber: 55,
+                                    columnNumber: 15
+                                }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 30,
-                                columnNumber: 49
+                                lineNumber: 54,
+                                columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Header.js",
-                            lineNumber: 30,
-                            columnNumber: 17
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.js",
-                        lineNumber: 29,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "login-c",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            className: "login-item",
-                            children: "Login"
+                            lineNumber: 53,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: " text-amber-50 pr-5",
+                                children: "Login"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 59,
+                                columnNumber: 13
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Header.js",
-                            lineNumber: 36,
-                            columnNumber: 17
+                            lineNumber: 58,
+                            columnNumber: 11
                         }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.js",
-                        lineNumber: 35,
-                        columnNumber: 13
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Header.js",
+                    lineNumber: 49,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/Components/Header.js",
-                lineNumber: 28,
-                columnNumber: 13
+                lineNumber: 48,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Header.js",
-        lineNumber: 9,
-        columnNumber: 9
+        lineNumber: 10,
+        columnNumber: 5
     }, undefined);
 };
+_s(Header, "gy2dolnbVZpNariBKsQ4jrbQZLA=");
 _c = Header;
 exports.default = Header;
 var _c;
@@ -20395,7 +20426,528 @@ $RefreshReg$(_c, "Header");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./BodyAfterLogin":"k3yAA","./Body":"3hYmK","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"61z4w","./SignUp":"gPy2O"}],"61z4w":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./BodyAfterLogin":"k3yAA","./SignUp":"gPy2O","./Body":"3hYmK","./Design":"cUrXp","react-router-dom":"61z4w","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"gPy2O":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$f354 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$f354.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f354.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const SignUp = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "bg-image"
+            }, void 0, false, {
+                fileName: "src/Components/SignUp.js",
+                lineNumber: 4,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "SignUp-cont",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "SignUp-form-cont",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                            children: "Log in or Sign Up in seconds"
+                        }, void 0, false, {
+                            fileName: "src/Components/SignUp.js",
+                            lineNumber: 7,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                            children: "Use your email or another service to continue with Canva (it\u2019s free)!"
+                        }, void 0, false, {
+                            fileName: "src/Components/SignUp.js",
+                            lineNumber: 9,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "SignUp-form-btn",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "SignUp-form-btn-phn",
+                                    children: "Continue with phone number"
+                                }, void 0, false, {
+                                    fileName: "src/Components/SignUp.js",
+                                    lineNumber: 14,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "SignUp-form-btn-google",
+                                    children: "Continue with Google"
+                                }, void 0, false, {
+                                    fileName: "src/Components/SignUp.js",
+                                    lineNumber: 18,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "SignUp-form-btn-email",
+                                    children: "Continue with email"
+                                }, void 0, false, {
+                                    fileName: "src/Components/SignUp.js",
+                                    lineNumber: 21,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/SignUp.js",
+                            lineNumber: 13,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "SignUp-form-btn-another",
+                            children: "Continue another way"
+                        }, void 0, false, {
+                            fileName: "src/Components/SignUp.js",
+                            lineNumber: 25,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                            children: "By continuing, you agree to Canva\u2019s Terms of Use. Read our Privacy Policy."
+                        }, void 0, false, {
+                            fileName: "src/Components/SignUp.js",
+                            lineNumber: 28,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/SignUp.js",
+                    lineNumber: 6,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/Components/SignUp.js",
+                lineNumber: 5,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+_c = SignUp;
+exports.default = SignUp;
+var _c;
+$RefreshReg$(_c, "SignUp");
+
+  $parcel$ReactRefreshHelpers$f354.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"cUrXp":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$a5d3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$a5d3.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a5d3.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Design = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "pt-2",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "flex  bg-[#7f7d9c] text-amber-50 w-[52rem] rounded-2xl",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "px-6",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: "DigitalDesign-head",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Sheets"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 9,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Docs"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 10,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Whiteboards"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 11,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Presentations"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 12,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Social"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 13,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Photo Editor"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 14,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Videos"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 15,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Print"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 16,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Websites"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 17,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "PDF Editor"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 18,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Design.js",
+                        lineNumber: 8,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/Components/Design.js",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "px-6",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: "PrintDesign-head",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Business Cards"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 23,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Invitations"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 24,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Flyers"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 25,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Brouchers"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 26,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "T-shirts"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 27,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Mugs"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 28,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Stickers"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 29,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Hoodies"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 30,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Labels"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 31,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Posters"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 32,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Design.js",
+                        lineNumber: 22,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/Components/Design.js",
+                    lineNumber: 21,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "px-6",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: "ImagesPhotos-head",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Photo editor"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 37,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Background remover"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Photo Collages"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 39,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Mockups"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 40,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Image enhancer"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 41,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "AI image generator"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 42,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "AI photo editor"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 43,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "AI art generator"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 44,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Draw"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 45,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Logos"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 46,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Design.js",
+                        lineNumber: 36,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/Components/Design.js",
+                    lineNumber: 35,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "px-6",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: "VideosAudios-head",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Video editor"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 51,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "YouTube video editor"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 52,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Video Trimmer"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 53,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Convert videos to MP4"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 54,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "AI video generator"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 55,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "Text to speech voiceover"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 56,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "AI music generator"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 57,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "p-3",
+                                children: "AI voice generator"
+                            }, void 0, false, {
+                                fileName: "src/Components/Design.js",
+                                lineNumber: 58,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Design.js",
+                        lineNumber: 50,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/Components/Design.js",
+                    lineNumber: 49,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Design.js",
+            lineNumber: 6,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/Components/Design.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Design;
+exports.default = Design;
+var _c;
+$RefreshReg$(_c, "Design");
+
+  $parcel$ReactRefreshHelpers$a5d3.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"61z4w":[function(require,module,exports,__globalThis) {
 /**
  * React Router DOM v6.26.1
  *
@@ -27521,156 +28073,6 @@ function persistAppliedTransitions(_window, transitions) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"gPy2O":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$f354 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$f354.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f354.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const SignUp = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "bg-image"
-            }, void 0, false, {
-                fileName: "src/Components/SignUp.js",
-                lineNumber: 3,
-                columnNumber: 5
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "SignUp-cont",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "SignUp-form-cont",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                            children: "Log in or Sign Up in seconds"
-                        }, void 0, false, {
-                            fileName: "src/Components/SignUp.js",
-                            lineNumber: 6,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                            children: "Use your email or another service to continue with Canva (it\u2019s free)!"
-                        }, void 0, false, {
-                            fileName: "src/Components/SignUp.js",
-                            lineNumber: 7,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "SignUp-form-btn",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    className: "SignUp-form-btn-phn",
-                                    children: "Continue with phone number"
-                                }, void 0, false, {
-                                    fileName: "src/Components/SignUp.js",
-                                    lineNumber: 9,
-                                    columnNumber: 21
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    className: "SignUp-form-btn-google",
-                                    children: "Continue with Google"
-                                }, void 0, false, {
-                                    fileName: "src/Components/SignUp.js",
-                                    lineNumber: 12,
-                                    columnNumber: 21
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    className: "SignUp-form-btn-email",
-                                    children: "Continue with email"
-                                }, void 0, false, {
-                                    fileName: "src/Components/SignUp.js",
-                                    lineNumber: 15,
-                                    columnNumber: 21
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/SignUp.js",
-                            lineNumber: 8,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            className: "SignUp-form-btn-another",
-                            children: "Continue another way"
-                        }, void 0, false, {
-                            fileName: "src/Components/SignUp.js",
-                            lineNumber: 19,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
-                            children: "By continuing, you agree to Canva\u2019s Terms of Use. Read our Privacy Policy."
-                        }, void 0, false, {
-                            fileName: "src/Components/SignUp.js",
-                            lineNumber: 22,
-                            columnNumber: 17
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/SignUp.js",
-                    lineNumber: 5,
-                    columnNumber: 13
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/Components/SignUp.js",
-                lineNumber: 4,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true);
-};
-_c = SignUp;
-exports.default = SignUp;
-var _c;
-$RefreshReg$(_c, "SignUp");
-
-  $parcel$ReactRefreshHelpers$f354.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"cUrXp":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$a5d3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$a5d3.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a5d3.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const Design = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: "Design"
-        }, void 0, false, {
-            fileName: "src/Components/Design.js",
-            lineNumber: 6,
-            columnNumber: 9
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/Components/Design.js",
-        lineNumber: 5,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Design;
-exports.default = Design;
-var _c;
-$RefreshReg$(_c, "Design");
-
-  $parcel$ReactRefreshHelpers$a5d3.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire164e", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"giGSC":[function() {},{}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire164e", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Namaste React.0f77c784.js.map
