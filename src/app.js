@@ -3,11 +3,12 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import Body from './Components/Body';
 import BodyAfterLogin from './Components/BodyAfterLogin';
-import GuestHeader from './Components/GuestHeader';
+//import GuestHeader from './Components/GuestHeader';
 import Design from './Components/Design';
 import UserHeader from './Components/UserHeader';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import SignUp from './Components/SignUp';
+import GuestHeader from './Components/GuestHeader';
 
 /**
  * Header
@@ -25,9 +26,14 @@ import SignUp from './Components/SignUp';
  */
 
 const AppLayout = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState();
   return (
     <div className="app">
-      <UserHeader />
+      {isLoggedIn ? (
+        <UserHeader setIsLoggedIn={setIsLoggedIn} />
+      ) : (
+        <GuestHeader setIsLoggedIn={setIsLoggedIn} />
+      )}
       <Outlet />
     </div>
   );

@@ -1,10 +1,17 @@
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import BodyAfterLogin from './BodyAfterLogin';
 import SignUp from './SignUp';
 import Body from './Body';
 import Design from './Design';
 import BodyAfterLogin from './BodyAfterLogin';
-import { Link } from 'react-router-dom';
-const GuestHeader = () => {
+
+const GuestHeader = ({ setIsLoggedIn }) => {
+  const navigate = useNavigate();
+  const HandleLogin = () => {
+    setIsLoggedIn(true);
+    navigate('/bodyafterlogin');
+  };
   const [showDesign, setShowDesign] = useState(false);
   return (
     <div className="flex bg-slate-900 h-24 shadow-2xl">
@@ -58,8 +65,11 @@ const GuestHeader = () => {
             </button>
           </div>
           <div className="">
-            <button className=" text-amber-50 pr-5">
-              <Link to="/BodyAfterLogin">Login</Link>
+            <button
+              onClick={HandleLogin}
+              className=" text-amber-50 pr-5 cursor-pointer"
+            >
+              Login
             </button>
           </div>
         </div>
